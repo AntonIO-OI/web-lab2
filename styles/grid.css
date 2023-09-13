@@ -1,0 +1,133 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / 6;
+  background-color: lightblue;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  padding: 10px 30px;
+}
+
+.title {
+  grid-area: 1 / 1 / 2 / 4;
+  margin: auto 0;
+}
+
+.title__inner {
+  width: 300px;
+  border-radius: 10px;
+  padding: 0 10px;
+  background-color: white;
+}
+
+.menu {
+  grid-area: 1 / 4 / 2 / 7;
+  margin: auto 0;
+  text-align: end;
+}
+
+.menu__list {
+  list-style: none;
+}
+
+.menu__list > li {
+  margin: 5px 0;
+}
+
+.left {
+  grid-area: 2 / 1 / 5 / 2;
+  background-color: lightcoral;
+  display: table;
+}
+
+.left__inner {
+  padding: 20px 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center-top {
+  grid-area: 2 / 2 / 3 / 6;
+  background-color: lightgreen;
+  text-align: end;
+  display: table;
+}
+
+.center-top__inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center-top__inner > p {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.center-left {
+  grid-area: 3 / 2 / 5 / 5;
+  padding: 20px 10px;
+  display: table;
+}
+
+.center-left__inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center-right {
+  grid-area: 3 / 5 / 5 / 6;
+  background-color: lightcoral;
+  display: table;
+  padding: 20px 10px;
+}
+
+.center-right__inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.footer {
+  grid-area: 5 / 1 / 6 / 6;
+  background-color: lightblue;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  padding: 10px 30px;
+}
+
+.description {
+  grid-area: 1 / 1 / 2 / 4;
+  margin: auto 0;
+}
+
+.description__inner {
+  max-width: 600px;
+  padding: 0 10px;
+}
+
+.subtitle {
+  grid-area: 1 / 4 / 2 / 7;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 10px;
+  width: 300px;
+  margin: auto 0;
+}
