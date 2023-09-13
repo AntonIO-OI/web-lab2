@@ -56,6 +56,10 @@
   padding: 10px 20px;
 }
 
+.left__image {
+  width: 100%;
+}
+
 .top {
   background-color: lightgreen;
   width: 75%;
@@ -71,6 +75,10 @@
   background-color: white;
   width: 50%;
   padding: 10px 20px;
+}
+
+.center-right__image {
+  width: 100%;
 }
 
 .center-right {
