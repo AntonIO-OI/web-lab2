@@ -86,7 +86,7 @@
 
 .right__container {
   display: flex;
-  width: 40%;
+  width: 25%;
   align-items: center;
   background-color: lightcoral;
   padding: 10px 20px;
@@ -94,7 +94,7 @@
 
 .left__container {
   display: flex;
-  width: 60%;
+  width: 75%;
   align-items: center;
   padding: 10px 20px;
 }
