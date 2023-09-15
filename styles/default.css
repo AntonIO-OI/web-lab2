@@ -19,7 +19,7 @@
 }
 
 .title__inner {
-  width: 250px;
+  min-width: 250px;
   border-radius: 10px;
   padding: 0 10px;
   background-color: white;
@@ -99,7 +99,7 @@
 }
 
 .subtitle__inner {
-  width: 150px;
+  min-width: 150px;
   background-color: white;
   border-radius: 10px;
   padding: 10px 20px;
