@@ -41,50 +41,43 @@
 }
 
 .main {
-  background-color: lightblue;
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   height: auto;
-
-  padding: 10px 30px;
 }
 
 .left {
   background-color: lightcoral;
   width: 25%;
-  padding: 10px 20px;
 }
 
-.left__image {
-  width: 100%;
+.left__inner {
+  padding: 10px 20px;
 }
 
 .top {
-  background-color: lightgreen;
-  width: 75%;
+  height: 30px;
   text-align: end;
-}
-
-.right {
-  width: 75%;
-  margin: auto 0;
-}
-
-.center-left {
-  background-color: white;
-  width: 50%;
-  padding: 10px 20px;
-}
-
-.center-right__image {
-  width: 100%;
+  background-color: lightgreen;
 }
 
 .center-right {
   background-color: lightcoral;
-  width: 25px;
+  width: 25%;
+}
+
+.center-left {
+  width: 50%;
+}
+
+.center-left__inner,
+.center-right__inner {
   padding: 10px 20px;
+}
+
+.right__inner {
+  width: 100%;
 }
 
 .footer {
