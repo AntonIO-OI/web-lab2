@@ -21,7 +21,7 @@
 }
 
 .title__inner {
-  min-width: 250px;
+  max-width: 300px;
   border-radius: 10px;
   padding: 0 10px;
   background-color: white;
