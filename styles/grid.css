@@ -145,3 +145,51 @@
 .image {
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .header {
+    display: block;
+  }
+
+  .title {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .title__inner {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .menu__list {
+    padding: 0;
+    text-align: center;
+  }
+
+  .parent {
+    display: block;
+  }
+
+  .right__outer {
+  }
+
+  .center {
+    display: block;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .description__inner {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .subtitle {
+    min-width: 40%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
